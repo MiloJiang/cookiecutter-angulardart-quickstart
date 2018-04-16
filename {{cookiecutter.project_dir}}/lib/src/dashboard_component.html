@@ -6,3 +6,14 @@
     </div>
   </div>
 </div>
+<div>
+  <section class="margin">
+      <h2>Custom text</h2>
+      <material-button raised (trigger)="click()">{{content}}</material-button>
+      <material-button raised class="blue">Colored {{content}}</material-button>
+      <material-button raised disabled>Disabled {{content}}</material-button>
+      <material-button class="blue-icon">
+          <material-icon icon="favorite"></material-icon>
+      </material-button>
+  </section>
+</div>
